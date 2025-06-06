@@ -4,5 +4,5 @@ This repository contains Tableau dashboard, visualization, and data analysis pro
 
 ## Electric Vehicle Population
 
-![Dashboardt](./Tableau Dashboard.pdf)
+![Dashboard](Electric_Vehicle_Population/Dashboard.png)
 
