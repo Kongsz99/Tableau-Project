@@ -1,0 +1,1231 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0910.0334                               -->
+<workbook original-version='18.1' source-build='2024.2.3 (20242.24.0910.0334)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Electric_Vehicle_Population_Data' inline='true' name='federated.0j0eeg41d5vxns17gwx5h1oo1aua' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Electric_Vehicle_Population_Data' name='textscan.1jewqb71l1zaql122h4on1xicmog'>
+            <connection class='textscan' directory='D:/CS Year 3/CS3DV' filename='Electric_Vehicle_Population_Data.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1jewqb71l1zaql122h4on1xicmog' name='Electric_Vehicle_Population_Data.csv' table='[Electric_Vehicle_Population_Data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='VIN (1-10)' ordinal='0' />
+            <column datatype='string' name='County' ordinal='1' />
+            <column datatype='string' name='City' ordinal='2' />
+            <column datatype='string' name='State' ordinal='3' />
+            <column datatype='integer' name='Postal Code' ordinal='4' />
+            <column datatype='integer' name='Model Year' ordinal='5' />
+            <column datatype='string' name='Make' ordinal='6' />
+            <column datatype='string' name='Model' ordinal='7' />
+            <column datatype='string' name='Electric Vehicle Type' ordinal='8' />
+            <column datatype='string' name='Clean Alternative Fuel Vehicle (CAFV) Eligibility' ordinal='9' />
+            <column datatype='integer' name='Electric Range' ordinal='10' />
+            <column datatype='integer' name='Base MSRP' ordinal='11' />
+            <column datatype='integer' name='Legislative District' ordinal='12' />
+            <column datatype='integer' name='DOL Vehicle ID' ordinal='13' />
+            <column datatype='string' name='Vehicle Location' ordinal='14' />
+            <column datatype='string' name='Electric Utility' ordinal='15' />
+            <column datatype='integer' name='2020 Census Tract' ordinal='16' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1jewqb71l1zaql122h4on1xicmog' name='Electric_Vehicle_Population_Data.csv' table='[Electric_Vehicle_Population_Data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='VIN (1-10)' ordinal='0' />
+            <column datatype='string' name='County' ordinal='1' />
+            <column datatype='string' name='City' ordinal='2' />
+            <column datatype='string' name='State' ordinal='3' />
+            <column datatype='integer' name='Postal Code' ordinal='4' />
+            <column datatype='integer' name='Model Year' ordinal='5' />
+            <column datatype='string' name='Make' ordinal='6' />
+            <column datatype='string' name='Model' ordinal='7' />
+            <column datatype='string' name='Electric Vehicle Type' ordinal='8' />
+            <column datatype='string' name='Clean Alternative Fuel Vehicle (CAFV) Eligibility' ordinal='9' />
+            <column datatype='integer' name='Electric Range' ordinal='10' />
+            <column datatype='integer' name='Base MSRP' ordinal='11' />
+            <column datatype='integer' name='Legislative District' ordinal='12' />
+            <column datatype='integer' name='DOL Vehicle ID' ordinal='13' />
+            <column datatype='string' name='Vehicle Location' ordinal='14' />
+            <column datatype='string' name='Electric Utility' ordinal='15' />
+            <column datatype='integer' name='2020 Census Tract' ordinal='16' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>VIN (1-10)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[VIN (1-10)]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>VIN (1-10)</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>County</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[County]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>County</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Postal Code</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Postal Code]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>Postal Code</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Model Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Model Year]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>Model Year</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Make</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Make]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>Make</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Model</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Model]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>Model</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electric Vehicle Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Electric Vehicle Type]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>Electric Vehicle Type</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Clean Alternative Fuel Vehicle (CAFV) Eligibility</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Clean Alternative Fuel Vehicle (CAFV) Eligibility]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>Clean Alternative Fuel Vehicle (CAFV) Eligibility</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electric Range</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Electric Range]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>Electric Range</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Base MSRP</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Base MSRP]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>Base MSRP</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Legislative District</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Legislative District]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>Legislative District</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DOL Vehicle ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DOL Vehicle ID]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>DOL Vehicle ID</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vehicle Location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Vehicle Location]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>Vehicle Location</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electric Utility</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Electric Utility]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>Electric Utility</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2020 Census Tract</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2020 Census Tract]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>2020 Census Tract</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column datatype='string' name='[Make]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;MERCEDES-BENZ&quot;' value='MERCEDES' />
+        </aliases>
+      </column>
+      <column datatype='integer' name='[Model Year]' role='dimension' type='quantitative' />
+      <column aggregation='Sum' datatype='integer' default-format='*00000' name='[Postal Code]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Vin (1-10)' datatype='string' name='[VIN (1-10)]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Electric_Vehicle_Population_Data.csv' datatype='table' name='[__tableau_internal_object_id__].[Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88]' role='measure' type='quantitative' />
+      <column-instance column='[Make]' derivation='None' name='[none:Make:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Model Year]' derivation='None' name='[none:Model Year:ok]' pivot='key' type='ordinal' />
+      <group caption='Action (Model Year)' hidden='true' name='[Action (Model Year)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Model Year:ok]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Make:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;SUBARU&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;ACURA&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;ALFA ROMEO&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;NISSAN&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;CADILLAC&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;KIA&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;RAM&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;BMW&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;JEEP&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;GENESIS&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;TESLA&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;RIVIAN&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;WHEEGO ELECTRIC CARS&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;CHEVROLET&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;AUDI&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;FORD&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;LINCOLN&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;LUCID&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;CHRYSLER&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;FIAT&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;ROLLS ROYCE&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;JAGUAR&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;MITSUBISHI&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;VOLVO&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;LAND ROVER&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;MAZDA&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;MINI&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;GMC&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;TH!NK&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;TOYOTA&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;DODGE&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;FISKER&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;SMART&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;AZURE DYNAMICS&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;BENTLEY&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;POLESTAR&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;VOLKSWAGEN&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;LEXUS&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;HONDA&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;MERCEDES-BENZ&quot;</bucket>
+            </map>
+            <map to='#ffaaff'>
+              <bucket>&quot;HYUNDAI&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;PORSCHE&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Electric_Vehicle_Population_Data.csv' id='Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88'>
+            <properties context=''>
+              <relation connection='textscan.1jewqb71l1zaql122h4on1xicmog' name='Electric_Vehicle_Population_Data.csv' table='[Electric_Vehicle_Population_Data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='string' name='VIN (1-10)' ordinal='0' />
+                  <column datatype='string' name='County' ordinal='1' />
+                  <column datatype='string' name='City' ordinal='2' />
+                  <column datatype='string' name='State' ordinal='3' />
+                  <column datatype='integer' name='Postal Code' ordinal='4' />
+                  <column datatype='integer' name='Model Year' ordinal='5' />
+                  <column datatype='string' name='Make' ordinal='6' />
+                  <column datatype='string' name='Model' ordinal='7' />
+                  <column datatype='string' name='Electric Vehicle Type' ordinal='8' />
+                  <column datatype='string' name='Clean Alternative Fuel Vehicle (CAFV) Eligibility' ordinal='9' />
+                  <column datatype='integer' name='Electric Range' ordinal='10' />
+                  <column datatype='integer' name='Base MSRP' ordinal='11' />
+                  <column datatype='integer' name='Legislative District' ordinal='12' />
+                  <column datatype='integer' name='DOL Vehicle ID' ordinal='13' />
+                  <column datatype='string' name='Vehicle Location' ordinal='14' />
+                  <column datatype='string' name='Electric Utility' ordinal='15' />
+                  <column datatype='integer' name='2020 Census Tract' ordinal='16' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_49ADA7E901FF442F918209049A06EF61]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard' type='sheet' worksheet='1.Total Electric Vehicles by Model Year' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard' />
+      </command>
+    </action>
+    <action caption='Highlight 1 (generated)' name='[Action2_852C7F1F5935493991A0A62874C333CA]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard' type='sheet' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Make' />
+        <param name='target' value='Dashboard' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='1.Total Electric Vehicles by Model Year'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontname='Calibri'>Total Electric Vehicles by Model Year 2010-</run>
+            <run fontalignment='1'>Æ&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Electric_Vehicle_Population_Data' name='federated.0j0eeg41d5vxns17gwx5h1oo1aua' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0j0eeg41d5vxns17gwx5h1oo1aua'>
+            <column datatype='string' name='[Electric Vehicle Type]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='Electric_Vehicle_Population_Data.csv' datatype='integer' name='[__tableau_internal_object_id__].[Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Model Year]' role='dimension' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='Electric_Vehicle_Population_Data.csv' datatype='table' name='[__tableau_internal_object_id__].[Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Electric Vehicle Type]' derivation='None' name='[none:Electric Vehicle Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Model Year]' derivation='None' name='[none:Model Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Electric Vehicle Type:nk]'>
+            <groupfilter function='level-members' level='[none:Electric Vehicle Type:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Model Year:qk]' filter-group='3' included-values='in-range'>
+            <min>2010</min>
+            <max>2025</max>
+          </filter>
+          <slices>
+            <column>[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Model Year:qk]</column>
+            <column>[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Electric Vehicle Type:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='title'>
+            <format attr='background-color' value='#faf4e7' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Model Year:qk]' value='Model Year'>
+              <formatted-text>
+                <run fontname='Calibri' fontsize='10'>Model Year</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Electric Vehicle Type:nk]' value='Electric Vehicle Type'>
+              <formatted-text>
+                <run fontname='Calibri' fontsize='10'>Electric Vehicle Type</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[__tableau_internal_object_id__].[cnt:Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[__tableau_internal_object_id__].[cnt:Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88:qk]</rows>
+        <cols>[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Model Year:qk]</cols>
+      </table>
+      <simple-id uuid='{00C7E180-C007-48E4-AF66-3D6725E47BFA}' />
+    </worksheet>
+    <worksheet name='2. BEV by year by maker '>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontname='Calibri'>BEV by year by maker </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Electric_Vehicle_Population_Data' name='federated.0j0eeg41d5vxns17gwx5h1oo1aua' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0j0eeg41d5vxns17gwx5h1oo1aua'>
+            <column datatype='string' name='[Electric Vehicle Type]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Make]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;MERCEDES-BENZ&quot;' value='MERCEDES' />
+              </aliases>
+            </column>
+            <_.fcp.ObjectModelTableType.false...column caption='Electric_Vehicle_Population_Data.csv' datatype='integer' name='[__tableau_internal_object_id__].[Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Model Year]' role='dimension' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='Electric_Vehicle_Population_Data.csv' datatype='table' name='[__tableau_internal_object_id__].[Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Electric Vehicle Type]' derivation='None' name='[none:Electric Vehicle Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Make]' derivation='None' name='[none:Make:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Model Year]' derivation='None' name='[none:Model Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Model Year]' derivation='None' name='[none:Model Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[Action (Model Year)]'>
+            <groupfilter function='level-members' level='[none:Model Year:ok]' user:ui-action-filter='[Action1_49ADA7E901FF442F918209049A06EF61]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Electric Vehicle Type:nk]'>
+            <groupfilter function='member' level='[none:Electric Vehicle Type:nk]' member='&quot;Battery Electric Vehicle (BEV)&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Model Year:qk]' filter-group='3' included-values='in-range'>
+            <min>2010</min>
+            <max>2025</max>
+          </filter>
+          <slices>
+            <column>[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Electric Vehicle Type:nk]</column>
+            <column>[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[Action (Model Year)]</column>
+            <column>[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Model Year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='title'>
+            <format attr='background-color' value='#faf4e7' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Make:nk]' value='Make by BEV&#10;'>
+              <formatted-text>
+                <run fontname='Calibri' fontsize='10'>Make by BEV</run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Make:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[__tableau_internal_object_id__].[cnt:Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88:qk]</rows>
+        <cols>[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Model Year:qk]</cols>
+      </table>
+      <simple-id uuid='{60A53F19-BA10-4E7C-ADA2-DF110EBFD8B2}' />
+    </worksheet>
+    <worksheet name='3. PHEV by year by maker '>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontname='Calibri'>PHEV by year by maker</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Electric_Vehicle_Population_Data' name='federated.0j0eeg41d5vxns17gwx5h1oo1aua' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0j0eeg41d5vxns17gwx5h1oo1aua'>
+            <column datatype='string' name='[Electric Vehicle Type]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Make]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;MERCEDES-BENZ&quot;' value='MERCEDES' />
+              </aliases>
+            </column>
+            <_.fcp.ObjectModelTableType.false...column caption='Electric_Vehicle_Population_Data.csv' datatype='integer' name='[__tableau_internal_object_id__].[Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Model Year]' role='dimension' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='Electric_Vehicle_Population_Data.csv' datatype='table' name='[__tableau_internal_object_id__].[Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Electric Vehicle Type]' derivation='None' name='[none:Electric Vehicle Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Make]' derivation='None' name='[none:Make:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Model Year]' derivation='None' name='[none:Model Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Model Year]' derivation='None' name='[none:Model Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[Action (Model Year)]'>
+            <groupfilter function='level-members' level='[none:Model Year:ok]' user:ui-action-filter='[Action1_49ADA7E901FF442F918209049A06EF61]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Electric Vehicle Type:nk]'>
+            <groupfilter function='member' level='[none:Electric Vehicle Type:nk]' member='&quot;Plug-in Hybrid Electric Vehicle (PHEV)&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Model Year:qk]' filter-group='3' included-values='in-range'>
+            <min>2010</min>
+            <max>2025</max>
+          </filter>
+          <slices>
+            <column>[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Electric Vehicle Type:nk]</column>
+            <column>[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[Action (Model Year)]</column>
+            <column>[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Model Year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='title'>
+            <format attr='background-color' value='#faf4e7' />
+          </style-rule>
+          <style-rule element='legend-title'>
+            <format attr='text-align' value='left' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Make:nk]' value='Make by PHEV&#10;'>
+              <formatted-text>
+                <run fontname='Calibri' fontsize='10'>Make by PHEV</run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Make:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[__tableau_internal_object_id__].[cnt:Electric_Vehicle_Population_Data.csv_85AF42A4FF3A40D6976FBC3028F73E88:qk]</rows>
+        <cols>[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Model Year:qk]</cols>
+      </table>
+      <simple-id uuid='{7447EA16-B626-4306-985C-74E11AB416E3}' />
+    </worksheet>
+    <worksheet name='4. Top 10 BEV of make &amp; (25-150)electric range'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontname='Calibri'>Top 10 BEV of make &amp; 25-150 electric range</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Electric_Vehicle_Population_Data' name='federated.0j0eeg41d5vxns17gwx5h1oo1aua' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0j0eeg41d5vxns17gwx5h1oo1aua'>
+            <column datatype='integer' name='[Electric Range]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Electric Vehicle Type]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Make]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;MERCEDES-BENZ&quot;' value='MERCEDES' />
+              </aliases>
+            </column>
+            <column-instance column='[Electric Range]' derivation='None' name='[none:Electric Range:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Electric Vehicle Type]' derivation='None' name='[none:Electric Vehicle Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Make]' derivation='None' name='[none:Make:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Electric Range:qk]' included-values='in-range'>
+            <min>25</min>
+            <max>150</max>
+          </filter>
+          <filter class='categorical' column='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Electric Vehicle Type:nk]'>
+            <groupfilter function='member' level='[none:Electric Vehicle Type:nk]' member='&quot;Battery Electric Vehicle (BEV)&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Make:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='COUNT([Electric Range])' function='order' user:ui-marker='order'>
+                <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+                  <groupfilter function='member' level='[none:Make:nk]' member='&quot;AZURE DYNAMICS&quot;' />
+                  <groupfilter function='member' level='[none:Make:nk]' member='&quot;BMW&quot;' />
+                  <groupfilter function='member' level='[none:Make:nk]' member='&quot;CHEVROLET&quot;' />
+                  <groupfilter function='member' level='[none:Make:nk]' member='&quot;FIAT&quot;' />
+                  <groupfilter function='member' level='[none:Make:nk]' member='&quot;FORD&quot;' />
+                  <groupfilter function='member' level='[none:Make:nk]' member='&quot;HYUNDAI&quot;' />
+                  <groupfilter function='member' level='[none:Make:nk]' member='&quot;KIA&quot;' />
+                  <groupfilter function='member' level='[none:Make:nk]' member='&quot;MERCEDES-BENZ&quot;' />
+                  <groupfilter function='member' level='[none:Make:nk]' member='&quot;MINI&quot;' />
+                  <groupfilter function='member' level='[none:Make:nk]' member='&quot;MITSUBISHI&quot;' />
+                  <groupfilter function='member' level='[none:Make:nk]' member='&quot;NISSAN&quot;' />
+                  <groupfilter function='member' level='[none:Make:nk]' member='&quot;SMART&quot;' />
+                  <groupfilter function='member' level='[none:Make:nk]' member='&quot;TH!NK&quot;' />
+                  <groupfilter function='member' level='[none:Make:nk]' member='&quot;TOYOTA&quot;' />
+                  <groupfilter function='member' level='[none:Make:nk]' member='&quot;VOLKSWAGEN&quot;' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Make:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;NISSAN&quot;</bucket>
+              <bucket>&quot;VOLKSWAGEN&quot;</bucket>
+              <bucket>&quot;HYUNDAI&quot;</bucket>
+              <bucket>&quot;BMW&quot;</bucket>
+              <bucket>&quot;KIA&quot;</bucket>
+              <bucket>&quot;TOYOTA&quot;</bucket>
+              <bucket>&quot;FORD&quot;</bucket>
+              <bucket>&quot;MERCEDES-BENZ&quot;</bucket>
+              <bucket>&quot;CHEVROLET&quot;</bucket>
+              <bucket>&quot;MITSUBISHI&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Electric Range:qk]</column>
+            <column>[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Electric Vehicle Type:nk]</column>
+            <column>[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Make:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Make:nk]' value='111' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Make:nk]' value='-90' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#faf4e7' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Make:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Electric Range:qk]</rows>
+        <cols>[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Make:nk]</cols>
+      </table>
+      <simple-id uuid='{43959840-5AC4-48B5-989D-BB1B237C4C17}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#2a1eaf' fontname='Calibri' fontsize='22'>Electric Vehicle Population </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#f2f6f7' />
+        </style-rule>
+        <style-rule element='dash-title'>
+          <format attr='background-color' value='#f2f9f9' />
+        </style-rule>
+      </style>
+      <size maxheight='768' maxwidth='1366' minheight='768' minwidth='1366' preset-index='0' sizing-mode='fixed' />
+      <datasources>
+        <datasource caption='Electric_Vehicle_Population_Data' name='federated.0j0eeg41d5vxns17gwx5h1oo1aua' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0j0eeg41d5vxns17gwx5h1oo1aua'>
+        <column datatype='string' name='[Electric Vehicle Type]' role='dimension' type='nominal' />
+        <column datatype='integer' name='[Model Year]' role='dimension' type='quantitative' />
+        <column-instance column='[Electric Vehicle Type]' derivation='None' name='[none:Electric Vehicle Type:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Model Year]' derivation='None' name='[none:Model Year:qk]' pivot='key' type='quantitative' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97916' id='20' param='vert' type-v2='layout-flow' w='98828' x='586' y='1042'>
+            <zone h='7032' id='21' type-v2='title' w='98828' x='586' y='1042'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='90884' id='7' param='horz' type-v2='layout-flow' w='98828' x='586' y='8074'>
+              <zone h='90884' id='5' type-v2='layout-basic' w='87115' x='586' y='8074'>
+                <zone h='45440' id='3' name='1.Total Electric Vehicles by Model Year' w='43556' x='586' y='8074'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='45444' id='11' name='2. BEV by year by maker ' w='43556' x='586' y='53514'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='45444' id='12' name='3. PHEV by year by maker ' w='43559' x='44142' y='53514'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='45440' id='17' name='4. Top 10 BEV of make &amp; (25-150)electric range' w='43559' x='44142' y='8074'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone fixed-size='160' h='90884' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='11713' x='87701' y='8074'>
+                <zone h='13672' id='8' name='1.Total Electric Vehicles by Model Year' param='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Electric Vehicle Type:nk]' type-v2='filter' w='11713' x='87701' y='8074'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='9506' id='16' name='1.Total Electric Vehicles by Model Year' param='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Model Year:qk]' type-v2='filter' values='database' w='11713' x='87701' y='21746'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='33853' id='13' name='2. BEV by year by maker ' pane-specification-id='0' param='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Make:nk]' type-v2='color' w='11713' x='87701' y='31252'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='33853' id='18' name='3. PHEV by year by maker ' pane-specification-id='0' param='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Make:nk]' type-v2='color' w='11713' x='87701' y='65105'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run fontalignment='1' fontcolor='#2a1eaf' fontname='Calibri' fontsize='22'>Electric Vehicle Population </run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1500' minheight='1500' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='23' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97916' id='22' param='vert' type-v2='layout-flow' w='98828' x='586' y='1042'>
+                <zone h='7032' id='21' type-v2='title' w='98828' x='586' y='1042'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='13672' id='8' mode='checkdropdown' name='1.Total Electric Vehicles by Model Year' param='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Electric Vehicle Type:nk]' type-v2='filter' w='11713' x='87701' y='8074'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9506' id='16' name='1.Total Electric Vehicles by Model Year' param='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Model Year:qk]' type-v2='filter' values='database' w='11713' x='87701' y='21746'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45440' id='3' is-fixed='true' name='1.Total Electric Vehicles by Model Year' w='43556' x='586' y='8074'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45440' id='17' is-fixed='true' name='4. Top 10 BEV of make &amp; (25-150)electric range' w='43559' x='44142' y='8074'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45444' id='11' is-fixed='true' name='2. BEV by year by maker ' w='43556' x='586' y='53514'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='33853' id='13' name='2. BEV by year by maker ' pane-specification-id='0' param='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Make:nk]' type-v2='color' w='11713' x='87701' y='31252'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45444' id='12' is-fixed='true' name='3. PHEV by year by maker ' w='43559' x='44142' y='53514'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='33853' id='18' name='3. PHEV by year by maker ' pane-specification-id='0' param='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Make:nk]' type-v2='color' w='11713' x='87701' y='65105'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{C84EBA4B-D4DC-4641-998D-6A268FC26BBA}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='37'>
+    <window class='worksheet' maximized='true' name='1.Total Electric Vehicles by Model Year'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Electric Vehicle Type:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0BAB3DFA-AA60-4D3C-BC08-8971309E1011}' />
+    </window>
+    <window class='worksheet' name='2. BEV by year by maker '>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Make:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F431D4A0-1080-4DFA-904B-9508D46DA31D}' />
+    </window>
+    <window class='worksheet' name='3. PHEV by year by maker '>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Make:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{76E13D3A-BD55-47D4-A2F9-924BFBA85C22}' />
+    </window>
+    <window class='worksheet' name='4. Top 10 BEV of make &amp; (25-150)electric range'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='276'>
+            <card pane-specification-id='0' param='[federated.0j0eeg41d5vxns17gwx5h1oo1aua].[none:Make:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{14AC6340-C894-408E-8EE0-85F9B1E4D230}' />
+    </window>
+    <window class='dashboard' name='Dashboard'>
+      <viewpoints>
+        <viewpoint name='1.Total Electric Vehicles by Model Year'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='2. BEV by year by maker '>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='3. PHEV by year by maker '>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='4. Top 10 BEV of make &amp; (25-150)electric range'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{06FE56B8-8BEA-44DC-847F-1D491283151F}' />
+    </window>
+  </windows>
+</workbook>
